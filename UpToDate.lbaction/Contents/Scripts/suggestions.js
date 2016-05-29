@@ -12,7 +12,7 @@ function runWithString(argument)
     }
 
     try {
-	var termList = result.data.termList;
+		var termList = result.data.termList;
         var suggestions = [];
         for (var term in termList) {
             suggestions.push({
