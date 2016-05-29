@@ -9,19 +9,21 @@
 	<key>CFBundleName</key>
 	<string>Search UpToDate</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.1b1</string>
+	<key>LBArgument</key>
+	<string>UpToDate search term</string>
 	<key>LBDescription</key>
 	<dict>
+		<key>LBArgument</key>
+		<string>UpToDate search term</string>
 		<key>LBAuthor</key>
 		<string>Nicholas Riley</string>
 		<key>LBEmail</key>
 		<string>launchbar@sabi.net</string>
 		<key>LBRequirements</key>
 		<string>An active Internet connection.</string>
-		<key>LBResult</key>
-		<string>A list of UpToDate search results.</string>
 		<key>LBSummary</key>
-		<string>Allows searching UpToDate.</string>
+		<string>Allows searching UpToDate®.</string>
 		<key>LBTwitter</key>
 		<string>@nriley</string>
 		<key>LBWebsiteURL</key>
@@ -29,8 +31,6 @@
 	</dict>
 	<key>LBRequirements</key>
 	<string>An active Internet connection.</string>
-	<key>LBResult</key>
-	<string>A list of UpToDate search results.</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
@@ -70,5 +70,8 @@
 	</dict>
 	<key>LBTextInputTitle</key>
 	<string>UpToDate</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Nicholas Riley.
+UpToDate® © 2016 UpToDate, Inc.</string>
 </dict>
 </plist>
