@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>UpToDate</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.sabi.launchbar.UpToDate</string>
+	<key>CFBundleName</key>
+	<string>Search UpToDate</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Nicholas Riley</string>
+		<key>LBEmail</key>
+		<string>launchbar@sabi.net</string>
+		<key>LBRequirements</key>
+		<string>Requires an active internet connection.</string>
+		<key>LBSummary</key>
+		<string>Allows searching UpToDate.</string>
+		<key>LBTwitter</key>
+		<string>@nriley</string>
+		<key>LBWebsite</key>
+		<string>http://sabi.net/nriley/software/#launchbar</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>Requires an active internet connection.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+		<key>LBSuggestionsScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>suggestions.js</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>UpToDate</string>
+</dict>
+</plist>
